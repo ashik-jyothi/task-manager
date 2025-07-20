@@ -1,8 +1,7 @@
 import { useState } from 'react';
 import { useAuth } from '../../hooks/useAuth.js';
 
-const LoginForm = () => {
-  const { login } = useAuth();
+const LoginForm = ({login}) => {
   const [formData, setFormData] = useState({ username: '', password: '' });
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');

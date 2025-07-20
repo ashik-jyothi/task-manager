@@ -1,11 +1,9 @@
-// Simple demo authentication
 export const authAPI = {
   async login({ username, password }) {
     if (!username || !password) {
       throw new Error('Username and password are required');
     }
 
-    // Accept any username for demo purposes
     return {
       token: `demo-token-${username}-${Date.now()}`,
       user: { id: 1, username: username.trim(), name: username.trim() }
@@ -17,7 +15,6 @@ export const authAPI = {
   }
 };
 
-// Simple tasks API
 export const tasksAPI = {
   async getTasks() {
     const response = await fetch('https://jsonplaceholder.typicode.com/todos');

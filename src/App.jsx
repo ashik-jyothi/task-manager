@@ -5,7 +5,7 @@ import TaskList from "./components/tasks/TaskList.jsx";
 import LoadingSpinner from "./components/common/LoadingSpinner.jsx";
 
 function App() {
-	const { isAuthenticated, loading, logout, user } = useAuth();
+	const { isAuthenticated, loading, logout, user, login } = useAuth();
 
 	if (loading) {
 		return (
@@ -16,7 +16,7 @@ function App() {
 	}
 
 	if (!isAuthenticated) {
-		return <LoginForm />;
+		return <LoginForm login={login}/>;
 	}
 
 	return (
