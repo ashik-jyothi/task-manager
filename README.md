@@ -4,7 +4,7 @@ A modern, responsive task management application built with React and Vite. Mana
 
 ## 🚀 Live Demo
 
-**[View Live Application](https://[YOUR_USERNAME].github.io/task-manager/)**
+**[View Live Application](https://ashik-jyothi.github.io/task-manager/)**
 
 ## ✨ Features
 
@@ -35,7 +35,7 @@ A modern, responsive task management application built with React and Vite. Mana
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/[YOUR_USERNAME]/task-manager.git
+git clone https://github.com/ashik-jyothi/task-manager.git
 cd task-manager
 ```
 
@@ -113,8 +113,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 👨‍💻 Author
 
-Created with ❤️ by [YOUR_NAME]
-
----
-
-**Note**: Remember to replace `[YOUR_USERNAME]` and `[YOUR_NAME]` with your actual GitHub username and name before pushing to GitHub.
+Created with ❤️ by Ashik Jyothi
